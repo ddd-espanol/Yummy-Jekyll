@@ -6,22 +6,23 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: DDD en Español # ex. I m Chuan
-name: Pablo Rigazzi # ex. DONGChuan
-email: pablo.rigazzi@gmail.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
-github_url: https://github.com/ddd-espanol # ex. https://github.com/DONGChuan
-github_username: DDDEspanol# ex. DONGChuan
+title: Entusiastas del Dominio
+name: DDD en Español
+# email: 
+# location: 
+# company: MyCompany
+# company_url: my_company_website
+github_url: https://github.com/ddd-espanol
+github_username: ddd-espanol
 description: description_of_your_web_site
 favicon: favicon.png # Image must be in assets/images
-repository: ddd-espanol/ddd-espanol.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: ddd-espanol/asombroso-ddd 
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+# url: http://localhost:4000
+url: http://ddd-espanol.github.io
 
 ## Gem
 gems:
@@ -58,26 +59,22 @@ paginate_path: 'page:num'
 navs:
   -
     href: /
-    label: Home
-
-  -
-    href: /open-source
-    label: Open-Source
+    label: Inicio
 
   -
     href: /blog
     label: Blog
 
   -
-    href: /bookmark
-    label: Bookmark
+    href: /recursos
+    label: Recursos
 
   -
-    href: /about
-    label: About
+    href: /nosotros
+    label: Nosotros
 
 # Sidebar to show popular repo
-side_bar_repo_limit: 5 # Number of repos to show
+side_bar_repo_limit: 2 # Number of repos to show
 
 # Google Analytics
 analytics :
